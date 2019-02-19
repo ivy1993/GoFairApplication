@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GoFair</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="no_location_data_provided">No Location Data provided</string>
+    <string name="service_not_available">Service is not available</string>
+    <string name="invalid_lat_long_used">nvalid Latitude Longitude Used</string>
+    <string name="no_address_found">No address found</string>
+    <string name="title_location_permission">Location Permission Needed</string>
+
+    <string name="text_location_permission">Allow GoFair to acccess your Location</string>
+    <string name="ok">OK</string>
+</resources>

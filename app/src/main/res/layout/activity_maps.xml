@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMapsActivity" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView"
+        android:layout_width="300dp"
+        android:layout_height="54dp"
+        android:layout_alignParentTop="true"
+        android:hint="WHERE TO"
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/black"
+        android:textSize="16dp"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:background="@android:color/white"
+        android:gravity="start" />
+
+
+    <Button
+        android:id="@+id/go"
+        android:onClick="onSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="20dp"
+        android:background="#000"
+        android:foreground="?attr/selectableItemBackground"
+        android:text="PROCEED"
+        android:textColor="#fff" />
+</RelativeLayout>
